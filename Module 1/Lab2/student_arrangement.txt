@@ -1,0 +1,19 @@
+Problem Description: The task is to find the number of ways students can receive their shirts from teachers while considering a restriction where certain students do not want to receive their shirt from a specific teacher (teacher standing at position v). 
+The problem is essentially a variation of a permutation problem with restrictions.
+
+Input:
+Line 1: Two integers n and v, representing the number of students and the position of the teacher v (1 ≤ n ≤ 10, 1 ≤ v ≤ n).
+Line 2: n integers representing student IDs.
+Line 3: Integer p, representing the number of students who do not want to receive their shirt from the teacher.
+Line 4: p integers representing the student IDs who do not want to receive from the teacher.
+
+Output:
+Line 1: The number of valid arrangements of students.
+
+Example Input:
+4 4
+1010 1012 1066 1064
+1
+1010
+Example Output:
+18

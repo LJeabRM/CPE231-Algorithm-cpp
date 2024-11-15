@@ -1,0 +1,15 @@
+Problem Description: The task involves determining the largest number of grilled pork sticks that cannot be purchased given four box types, each containing a different number of pork sticks. 
+The sum of sticks in each box can be combined to form various total numbers, and the goal is to find the largest total that is impossible to achieve.
+
+Input:
+Line 1: Four integers p1, p2, p3, p4, representing the number of pork sticks in each of the four boxes.
+Line 2: Integer n, representing the maximum number of pork sticks a student can buy in one transaction.
+
+Output:
+Line 1: The largest number of pork sticks that cannot be purchased.
+
+Example Input:
+8 12 15 20
+100
+Example Output:
+49
