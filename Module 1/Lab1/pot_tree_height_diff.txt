@@ -1,0 +1,20 @@
+Problem Description:
+The task involves arranging pots and trees in such a way that their combined heights (pot height + tree height) are as close as possible across all pots. 
+You are given the heights of n pots and n trees, 
+and you need to find the minimum possible sum of the absolute differences between the combined heights of adjacent pots and trees.
+
+Input:
+Line 1: An integer n, representing the number of pots and trees (1 ≤ n ≤ 1000).
+Line 2: n integers, p1, p2, ..., pn, representing the heights of the pots (1 ≤ pi ≤ 10000).
+Line 3: n integers, t1, t2, ..., tn, representing the heights of the trees (1 ≤ ti ≤ 10000).
+
+Output:
+Line 1: An integer representing the minimum sum of the absolute differences between the combined heights of adjacent pots and trees.
+
+Example Input and Output:
+Input:
+3
+78 41 35
+104 150 98
+Output:
+40
